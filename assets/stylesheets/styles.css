@@ -144,6 +144,10 @@ a {
 	text-align: center;
 }
 
+#showcase .d-block {
+	height: 48px;
+}
+
 #showcase.jumbotron #typed,
 #showcase.jumbotron .typed-cursor {
 	font-size: 2em;
@@ -247,16 +251,20 @@ a {
 	text-transform: uppercase;
 }
 
-#about .resume .resume.header .personal.information .primary-info a {
+#about .resume .resume.header .personal.information .primary-info {
 	color: rgba(255, 255, 255, 0.9);
 }
 
-#about .resume .resume.header .personal.information .primary-info a > svg {
+#about .resume .resume.header .personal.information .primary-info li {
+	cursor: default;
+}
+
+#about .resume .resume.header .personal.information .primary-info li > svg {
 	width: 18px;
 	height: 16px;
 }
 
-#about .resume .resume.header .personal.information .primary-info a > svg > path {
+#about .resume .resume.header .personal.information .primary-info li > svg > path {
 	fill: white;
 }
 
@@ -497,8 +505,68 @@ footer .social a > svg > path {
 }
 
 @media (max-width: 576px) {
+	#showcase.jumbotron h1 {
+		font-size: 2.5rem !important;
+	}
+	#showcase.jumbotron #typed,
+	#showcase.jumbotron .typed-cursor {
+		font-size: 1.25em;
+	}
+
+	#about .resume .resume.header .personal.information .primary-info h3 {
+		font-size: 1.5rem;
+	}
+
+	#about .resume .resume.header .personal.information .primary-info h4 {
+		font-size: 1.2rem;
+	}
+
+	#about .resume .resume.header .personal.information .primary-info li,
+	#about .resume .resume.body {
+		font-size: 0.9rem;
+	}
+
+	#about .resume .resume.body {
+		padding: 2rem;
+	}
+
+	#about .resume .resume.body .title {
+		font-size: 1.15rem;
+	}
+
 	footer .social a > svg {
 		width: 25px;
 		height: 40px;
+	}
+}
+
+@media (max-width: 480px) {
+	#showcase.jumbotron h1 {
+		font-size: 2rem !important;
+	}
+	#showcase.jumbotron #typed,
+	#showcase.jumbotron .typed-cursor {
+		font-size: 1em;
+	}
+
+	#about .resume .resume.header .personal.information .primary-info h3 {
+		font-size: 1.3rem;
+	}
+
+	#about .resume .resume.header .personal.information .primary-info h4 {
+		font-size: 1.1rem;
+	}
+
+	#about .resume .resume.header .personal.information .primary-info li,
+	#about .resume .resume.body {
+		font-size: 0.8rem;
+	}
+
+	#about .resume .resume.body {
+		padding: 1.5rem;
+	}
+
+	#about .resume .resume.body .title {
+		font-size: 1rem;
 	}
 }
