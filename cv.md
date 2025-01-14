@@ -92,6 +92,9 @@ A chess game with a GUI and different engines to play against, all implemented f
 
 Neural network able identify if there are signs of Diabetic Retinopathy present in a retina image (taken with fundus photography) and classify each image into five different categories depending on the severity of the condition.
 
+## Publications
+- (Nov 2024) [In vitro evaluation of Croton malambo extract combined with chemotherapeutic drugs](https://doi.org/10.47499/revistaaccb.v1i36.296)
+- (Nov 2024) [In vitro interaction of Croton micans extract with chemotherapeutic drugs in human cancer cell lines](https://doi.org/10.26807/remcb.v45i2.1008)
 
 ## Open Source Contributions
 [Guidance](https://github.com/guidance-ai/guidance/blob/main/notebooks/art_of_prompt_design/react.ipynb)
