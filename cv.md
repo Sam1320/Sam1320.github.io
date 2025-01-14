@@ -32,7 +32,7 @@ Machine Learning Engineer
 
 `Aug 2023-Present`
 **AI/Machine Learning Engineer** at [Conductor](https://www.conductor.com/)
-- Building a self-managing prompt library for creating, orchestrating, validating, and evaluating prompts for different Language Models.
+- Designed and built a prompt library ecosystem for creating, orchestrating, validating, and evaluating prompts for different Language Models.
 - Designed and built a large scale RAG system for recommending internal links to content creators using vector databases and LLMs.
 - Leveraging domain-specific knowledge and semi-automated prompt engineering to deliver personalized applications for different use cases.
 
