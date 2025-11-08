@@ -1,61 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
-        
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* 
+ * Simple and modular CSS for Sam Rodriguez's website
+ * Following the principles of simplicity, modularity, and semantic structure
+ */
 
+/* ===== BASE STYLES ===== */
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #4a5568;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    margin: 0;
+    padding: 0 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
 }
 
-.container {
+/* ===== TYPOGRAPHY ===== */
+h1, h2, h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+header h1 {
     text-align: center;
-    padding: 3rem 2rem;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 16px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    max-width: 500px;
-    margin: 2rem;
+    margin-bottom: 1em;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 0.8em;
+}
+
+main section {
+    text-align: center;
 }
 
 p {
-    font-size: 1.2rem;
-    font-weight: 300;
-    margin-bottom: 1rem;
-    color: #2d3748;
+    margin-bottom: 1em;
 }
 
-a {
-    color: #4299e1;
+/* ===== LAYOUT COMPONENTS ===== */
+header, main, footer {
+    padding: 1em 0;
+}
+
+footer {
+    margin-top: 2em;
+    border-top: 1px solid #eee;
+    padding-top: 1em;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+    text-align: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
     text-decoration: none;
-    font-weight: 400;
-    transition: all 0.3s ease;
-    border-bottom: 1px solid transparent;
+    font-weight: bold;
+    color: #0066cc;
 }
 
-a:hover {
-    color: #2b6cb0;
-    border-bottom-color: #2b6cb0;
-    transform: translateY(-1px);
+.nav-link:hover {
+    text-decoration: underline;
 }
 
+/* ===== PROFILE IMAGE ===== */
+.profile-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #eee;
+}
+
+/* ===== UTILITY CLASSES ===== */
+.text-center {
+    text-align: center;
+}
+
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
 @media (max-width: 600px) {
-    .container {
-        margin: 1rem;
-        padding: 2rem 1.5rem;
+    .nav-list {
+        flex-direction: column;
     }
     
-    p {
-        font-size: 1.1rem;
+    .nav-item {
+        margin-right: 0;
+        margin-bottom: 10px;
     }
-}
+} 
