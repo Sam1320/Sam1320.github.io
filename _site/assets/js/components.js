@@ -9,7 +9,7 @@ function loadHeader() {
                 <ul class="nav-list">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li> -->
                 </ul>
             </nav>
             <h1>Sam Rodríguez</h1>
