@@ -89,6 +89,25 @@ nav {
     border: 3px solid #eee;
 }
 
+/* ===== POST LIST ===== */
+.post-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-list-item {
+    margin: 10px 0;
+}
+
+.post-list-link {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.post-list-link:hover {
+    text-decoration: underline;
+}
+
 /* ===== UTILITY CLASSES ===== */
 .text-center {
     text-align: center;
