@@ -1,0 +1,16 @@
+#
+name: Sam Rodríguez
+title: Sam Rodríguez
+description: Personal website of Sam Rodriguez.
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - README.md
+
+# Permalink structure
+permalink: /posts/:title/
