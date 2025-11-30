@@ -31,8 +31,13 @@ main h2 {
 }
 
 main section {
-    text-align: center;
+    text-align: left;
 }
+
+main section p {
+    text-align: left;
+}
+
 
 p {
     margin-bottom: 1em;
