@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <title>{{ page.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description }}">
+    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>{{ page.title }}</h1>
+            <p class="post-date">{{ page.date | date: "%b %Y" }}</p>
+            {{ content }}
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Sam Rodriguez</p>
+    </footer>
+</body>
+</html>
