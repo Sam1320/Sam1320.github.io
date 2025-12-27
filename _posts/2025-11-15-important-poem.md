@@ -15,8 +15,10 @@ I've finished it and now know the lines by heart. The meaning of it I'm sure I'l
 
 {:c: style="text-align: center;"}
 
-## _If_ 
+## _If_
+{:c}
 ### _By Joseph Rudyard Kipling_
+{:c}
 
 If you can keep your head, while all about you \\
 Are losing theirs, and blaming it on you, \\
