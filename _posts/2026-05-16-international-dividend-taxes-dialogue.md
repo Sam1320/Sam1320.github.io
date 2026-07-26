@@ -1,14 +1,20 @@
-### Decoding International Dividend Taxes: A Simple Dialogue
+---
+title: International Dividend Taxes
+layout: post
+---
 
-As a resident of Germany investing globally, I recently ran into a confusing situation while filing my annual taxes (*KAP-Anlage*). I had received dividends from a Dutch company (ASML) and US companies (Alphabet and Microsoft), but noticed a sharp discrepancy in how they were taxed before the money ever hit my account. 
+I recently filed my taxes and realized that I lost 15% of my US dividend due to double taxation. I had heard about the [W-8BEN](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf) form before but since my dividends are barely enough to buy a chair at Ikea —and I'm very lazy— I never bothered to fill the form. I figured it wasn't worth the overhead. However, a _hypothetical_ lost Ikea chair hurts less than an _actual_ lost Ikea chair. Seing those $3,12 lost to the IRS was enough for me to decide to understand what this form is about and how to file it.
 
-For the Dutch dividends, 15% was withheld at the source. For the US dividends, a hefty 30% was withheld. However, when filling out my German tax return, I realized the German tax office (*Finanzamt*) only credited a maximum of 15% of those foreign taxes against my German tax bill. 
+The main idea is that each country taxes the capital gains of its residents at whatever rate they find suitable (typically between 10 and 40%). Additionally, each country has the right to tax income that _arose_ there, regardless of where the owner of the asset resides. If you own dividend-generating stocks in country A and reside in country B. Then, country A will tax your dividend (i.e. withhold a % of it) and country B will tax again what's left. But being taxed twice isn't nice, and countries want to encourage foreign investment. So bilateral agreements arose to avoid the double squeeze.
 
-This tension between what foreign countries withhold and what your home country credits is the core of international tax treaties. At its heart, the system relies on a pragmatic approximation of a simple principle: ideally, a citizen should pay the tax rate defined by their country of residence. 
+<!-- In Germany, capital gains are taxed at 25%. In the Ne -->
 
-To understand the mechanics of Double Taxation Agreements (DBAs) and why filing a W-8BEN form is so crucial for holding US stocks, I found it helpful to frame the situation as a simple dialogue between myself, Germany, and the US.
+The W-8BEN form is one such agreement. It is simply the US saying, "I can drop my tax rate a bit to avoid you being taxed more than you should".
 
-Here is how the conversation plays out:
+To understand the mechanics of Double Taxation Agreements and why filing a W-8BEN form is wise, I found it helpful to frame the situation as a simple dialogue between myself, Germany, and the US.
+
+For context, capital gain tax in Germany is 25%. For non-residents, it is 15% and 30% in the Netherlands and the U.S. respectively.
+
 
 #### Scenario 1: The 15% Dutch Withholding Tax
 
@@ -20,13 +26,13 @@ Here is how the conversation plays out:
 
 **Me:** Hey Germany, don't tax me the full 25%. I was already taxed 30% in the US. So, tax me -5% instead. In other words, *pay* me 5%. That way, I will have paid 30% - 5%, which equals the 25% you think is fair for me to pay on my capital gains.
 
-**Germany:** That seems fair, but no. I will only acknowledge up to 15% in tax withheld elsewhere. So, I will credit that 15% and tax you 10% instead of 25%. Ultimately, that means you will have been taxed 30% (by the US) + 10% (by me) = 40% total. Sorry, but you can see why I cannot just acknowledge any arbitrary percentage taxed elsewhere. Otherwise, I could end up paying a bunch of people out of pocket just because other countries think capital gains taxes should be higher. I am fair, but only up to a limit.
+**Germany:** Ha! no. I will only acknowledge up to 15% in tax withheld elsewhere. So, I will credit that 15% and tax you 10% instead of 25%. Ultimately, that means you will have been taxed 30% (by the US) + 10% (by me) = 40% total. Sorry, but you can see why I cannot just acknowledge any arbitrary percentage taxed elsewhere. Otherwise, I could end up paying a bunch of people out of pocket just because other countries think capital gains taxes should be higher. I am fair, but not stupid.
 
-**Me:** Ouch. So I just lose that extra 15%?
+**Me:** So I just lose that extra 15%?
 
 **Germany:** If you leave it as is, yes. But do not despair—the US and I actually have a Double Taxation Treaty precisely to prevent you from getting crushed like this. Tell the US to honor the treaty and lower their withholding to 15%. They will agree to it, because I honor the exact same agreement when US citizens ask me to reduce their withholding tax on German dividends. It is a two-way street. 
 
-**Me:** Oh, awesome! Thanks, Germany. 
+**Me:** Sweet! Thanks, Germany. 
 
 *(Later, addressing the US broker via a W-8BEN form)*
 
