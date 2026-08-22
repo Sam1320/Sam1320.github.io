@@ -16,32 +16,34 @@ There is a detail though. How much foreing tax each country is willing to credit
 
 Intrestingly, when a country credits the foreing tax witheld against your tax bill it is essentially forfeiting that profit. Germany could say "I don't care how much you paid elsewhere, I'll tax you the same". But the point of bilaterality is that by abiding to the treaty Germany knows that U.S. residents investing in German companies will have the same benefit (U.S. will credit against their tax bill the tax witheld by Germany) this encouraging foreingers to buy German stocks.
 
-Lets go over actual numbers and my specific example to make this concrete. Germany sets capital gains tax at 25% and credits up to 15% of taxes paid elsewhere. The Netherlands and the U.S. set the dividend tax for non-residents at 15% and 30% respectively. Note how what the US taxes non-residents is higher than what Germany is willing to credit. US taxes 30%, Germany credits only 15%, that uncreditted 15% went to the IRS but could have gone to your nice new chair, in other words, you were taxed 15% more than you _could_ have.
+Lets go over actual numbers and my specific example to make this concrete. Germany sets capital gains tax at 25%<a href="#fn1">[1]</a>
+ and credits up to 15% of taxes paid elsewhere. The Netherlands and the U.S. set the dividend tax for non-residents at 15% and 30% respectively. Note how what the US taxes non-residents is higher than what Germany is willing to credit. US taxes 30%, Germany credits only 15%, that uncreditted 15% went to the IRS but could have gone to your nice new chair, in other words, you were taxed 15% more than you _could_ have.
 
 My foreign dividends for 2025:
 
-```
-dutch_dividends = €38,46
-us_dividends = €128,21
-```
+
+<div class="calculation">dutch_dividends = €38,46
+us_dividends = €128,21</div>
 
 
 The Netherlands witheld 15%. The U.S. 30%.
 
-```
-dutch_dividends_withheld = €38,46 * 15% = €4,92
-us_dividends_withheld = €128,21 * 30% = €38,46
-```
+<div class="calculation">dutch_dividends_withheld = €38,46 * 15% = €4,92
+us_dividends_withheld = €128,21 * 30% = €38,46</div>
 
 Germany only credits up to 15% of foreign withholding tax against your domestic tax bill. Which means it credited...
 
-```
-dutch_dividends_withheld_credited = €38,46 * 15% = €4,92
-us_dividends_withheld_credited = €128,21 * 15% = €19,23
-```
+<div class="calculation">dutch_dividends_withheld_credited = €38,46 * 15% = €4,92
+us_dividends_withheld_credited = €128,21 * 15% = €19,23</div>
+
 
 Germany credited the full €4,92 of my Dutch dividends withheld, but it credited only half of my U.S. dividends withheld, i.e. €38,46 / 2 = €19,23. Meaning I lost the other €19,23 forever. My grandfather would not be particularly proud.
 
 To avoid future pennies from being lost —and make granpa proud— you can fill the W-8BEN form through your broker and lower your U.S. witholding tax rate. In the case of Germany, filling it will lower the U.S. dividend tax withheld from 30% to 15%. In my case meaning an extra €19,23 in my pocket.
 
 So, go fill your W-8BEN form and start thinking about what piece of nice furniture to buy with that extra money you'll be getting.
+
+
+<div class="notes-divider"><span> Notes </span></div>
+
+<p id="fn1">[1] German tax law: <a href="https://www.gesetze-im-internet.de/estg/__32d.html" target="_blank">§32d EStG</a></p>

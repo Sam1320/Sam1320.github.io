@@ -120,4 +120,39 @@ nav {
         margin-right: 0;
         margin-bottom: 10px;
     }
-} 
+}
+
+/* Basic Arithmetic */
+.calculation {
+    background: #e6e7e8;
+    /* border-left: 3px solid #0066cc; */
+    border-radius: 4px;
+    padding: 0.3em 0.6em 0.35em 0.7em;
+    margin: 1em 0;
+    width: fit-content;
+    max-width: 100%;
+    font-family: Monaco, Menlo, monospace;
+    font-size: 0.9em;
+    line-height: 1.5;
+    white-space: pre;
+    overflow-x: auto;
+}
+/* ===== NOTES DIVIDER ===== */
+.notes-divider {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    color: #999;
+}
+
+.notes-divider::before,
+.notes-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #ddd;
+}
+
+.notes-divider span {
+    white-space: nowrap;
+}
