@@ -4,7 +4,7 @@ layout: post
 ---
 <!-- title: It's The Pennies You've got to Watch out for -->
 
-I recently filed my taxes and realized that I lost 15% of my US dividend due to double taxation. I had heard about the [W-8BEN](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf) form that one can fill to prevent double taxation, but since 15% of my dividends would barely enough to buy a chair at Ikea —and I'm very lazy— I never bothered to fill it. I figured that it wasn't worth the overhead. However, a _hypothetical_ lost Ikea chair hurts less than an _actual_ lost Ikea chair. Seing those €19,23 lost to the IRS reminded me of my grandfather who used to say _"The big amounts of money protect themselves, its the pennies you've got to pay attention to"_ and it was enough for me to finally dedicate time to understand what this form is about and how to file it.
+I recently filed my taxes and realized that I lost 15% of my US dividend due to double taxation. I had heard about the [W-8BEN](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf) form which one can fill to request a reduction of your tax rate and thus avoid double taxation, but since 15% of my dividends is barely enough to buy a chair at Ikea —and I'm very lazy— I never bothered to fill it. I figured that it wasn't worth the overhead. However, a _hypothetical_ lost Ikea chair hurts less than an _actual_ lost Ikea chair. Seing those €19,23 lost to the IRS reminded me of my grandfather who used to say _"The big amounts of money protect themselves, its the pennies you've got to pay attention to"_ and it was enough for me to finally dedicate time to understand what this form is about and how to file it.
 
 The main idea is that each country taxes the capital gains of its residents at whatever rate they find suitable (typically between 10 and 40%). Additionally, each country has the right to tax income that _arose_ there, regardless of where the owner of the asset resides. If you own dividend-generating stocks in country A and reside in country B. Then, country A will tax your dividend (i.e. withhold a % of it) and country B will tax what's left _again_. But... being taxed twice isn't nice, and countries want to encourage foreign investment. So bilateral agreements arose to avoid the double squeeze.
 
@@ -16,8 +16,8 @@ There is a detail though. How much foreing tax each country is willing to credit
 
 Intrestingly, when a country credits the foreing tax witheld against your tax bill it is essentially forfeiting that profit. Germany could say "I don't care how much you paid elsewhere, I'll tax you the same". But the point of bilaterality is that by abiding to the treaty Germany knows that U.S. residents investing in German companies will have the same benefit (U.S. will credit against their tax bill the tax witheld by Germany) this encouraging foreingers to buy German stocks.
 
-Lets go over actual numbers and my specific example to make this concrete. Germany sets capital gains tax at 25%<a href="#fn1">[1]</a>
- and credits up to 15% of taxes paid elsewhere. The Netherlands and the U.S. set the dividend tax for non-residents at 15% and 30% respectively. Note how what the US taxes non-residents is higher than what Germany is willing to credit. US taxes 30%, Germany credits only 15%, that uncreditted 15% went to the IRS but could have gone to your nice new chair, in other words, you were taxed 15% more than you _could_ have.
+Lets go over actual numbers and my specific example to make this concrete. Germany sets capital gains tax at 25%
+ and credits up to 15% of taxes paid elsewhere. The Netherlands and the U.S. set the dividend tax for non-residents at 15% and 30% respectively. Note how what the US taxes non-residents is higher than what Germany is willing to credit. US taxes 30%, Germany credits only 15%, that uncreditted 15% went to the IRS but could have gone to your nice new chair, in other words, you were taxed 15% more than you _could_ have. <a href="#fn1">[1]</a>
 
 My foreign dividends for 2025:
 
@@ -46,4 +46,5 @@ So, go fill your W-8BEN form and start thinking about what piece of nice furnitu
 
 <div class="notes-divider"><span> Notes </span></div>
 
-<p id="fn1">[1] German tax law: <a href="https://www.gesetze-im-internet.de/estg/__32d.html" target="_blank">§32d EStG</a></p>
+<p id="fn1">[1] I didn't know how often do these rates change and wanted to provide snapshots of the law as sources here in case they change by the time you read this post. But it turns out that international dividend tax rates are incredibly stable, they have not changed in over a decade. But, these can change anyways here are the <a href="https://business.gov.nl/regulations/dividend-tax/">Dutch</a>, <a href="https://www.law.cornell.edu/uscode/text/26/871">U.S.</a> and <a href="https://www.gesetze-im-internet.de/estg/__32d.html" target="_blank">German</a> sources. </p> 
+
