@@ -11,6 +11,7 @@ highlighter: rouge
 # Exclude from processing
 exclude:
   - README.md
+  - sandbox
 
 # Permalink structure
 permalink: /posts/:title/
