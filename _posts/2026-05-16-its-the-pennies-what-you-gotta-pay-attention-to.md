@@ -47,5 +47,8 @@ So, go fill your W-8BEN form and start thinking about what piece of nice furnitu
 
 <div class="notes-divider"><span> Notes </span></div>
 
-<p id="fn1">[1] I didn't know how often do these rates change and wanted to provide snapshots of the law as sources here in case they change by the time you read this post. But it turns out that international dividend tax rates are incredibly stable, they have not changed in over a decade. But, these can change anyways here are the <a href="https://business.gov.nl/regulations/dividend-tax/">Dutch</a>, <a href="https://www.law.cornell.edu/uscode/text/26/871">U.S.</a> and <a href="https://www.gesetze-im-internet.de/estg/__32d.html" target="_blank">German</a> sources. </p> 
+<p id="fn1">[1] I added a direct link to the form provided by the IRS, but you normally file this through your broker.
 
+<p id="fn2">[2] I didn't know how often do these rates change and wanted to provide snapshots of the law as sources here in case they change by the time you read this post. But it turns out that international dividend tax rates are incredibly stable, they have not changed in over a decade. But, these can change anyways here are the <a href="https://business.gov.nl/regulations/dividend-tax/">Dutch</a>, <a href="https://www.law.cornell.edu/uscode/text/26/871">U.S.</a> and <a href="https://www.gesetze-im-internet.de/estg/__32d.html" target="_blank">German</a> sources. </p> 
+
+<p id="fn3">[3] I said I "lost" the other €19 but you can actually reclaim over-withheld tax by filling a 1040-NR form.
