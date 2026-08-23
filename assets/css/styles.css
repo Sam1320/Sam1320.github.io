@@ -142,6 +142,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 1em;
+    margin: 4.5em 0 2.2em;
     color: #999;
 }
 
