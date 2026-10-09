@@ -76,7 +76,7 @@ p {
 }
 
 /* title lines carry a date: keep room for it on the right */
-p:has(> code) {
+p:has(> code.highlighter-rouge) {
 	padding-right: 11em;
 }
 
@@ -88,7 +88,7 @@ code {
 	color: #aaa;
 }
 
-p code {
+p > code.highlighter-rouge {
 	position: absolute;
 	text-align: right;
 	right: 0;
@@ -140,6 +140,16 @@ h1+p {
 	font-size: 110%;
 }
 
+/* inline code in prose, as opposed to the gray date labels */
+p code:not(.highlighter-rouge) {
+	color: inherit;
+}
+
+.tagline {
+	margin-top: 0.6em;
+	color: #666;
+}
+
 h2 {
 	display: flex;
 	align-items: center;
@@ -171,6 +181,8 @@ a:hover {
 main a::after {
 	content: "\2197";
 	display: inline-block;
+	/* bullets use a negative hanging indent; don't let the arrow inherit it */
+	text-indent: 0;
 	margin-left: 0.15em;
 	font-size: 0.75em;
 	text-decoration: none;

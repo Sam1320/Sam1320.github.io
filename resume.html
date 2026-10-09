@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sam Rodriguez's professional resume and experience">
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
-    <link rel="stylesheet" href="assets/css/davewhipp-screen.css" media="screen">
-    <link rel="stylesheet" href="assets/css/davewhipp-print.css" media="print">
+    <link rel="stylesheet" href="assets/css/davewhipp-screen.css?v=2" media="screen">
+    <link rel="stylesheet" href="assets/css/davewhipp-print.css?v=2" media="print">
     <script defer src="assets/js/components.js"></script>
 </head>
 <body>
@@ -15,7 +15,8 @@
     <main>
         <section>                
             <h1>Sam Rodríguez</h1>
-            <p>Machine Learning Engineer</p>
+            <p>Medical Doctor &amp; Machine Learning Engineer</p>
+            <p class="tagline">I'm interested in using technology to improve our health and understanding of biology, and I care about lifting humanity up as AI continues to progress.</p>
 
             <h2 id="education">Education</h2>
             
@@ -40,8 +41,8 @@
                 <p><em>Built and led Recare's AI organization from scratch into its fastest-growing and most load-bearing unit, applying LLMs to clinical documentation workflows, with AI features in production at 25+ hospitals.</em></p>
                 <ul>
                     <li>Set the technical direction for Recare Extract and Docs, a scalable structured data-extraction and clinical document-generation system grounded in source medical records.</li>
-                    <li>Made evaluation first-class: shipped an in-house evaluation platform, with 20+ evaluators across three products. The platform is used to validate prompt and inference configuration updates against datasets, and to encode relevant metrics as evaluators based on user and expert feedback.</li>
-                    <li>Designed a hybrid LLM-as-a-judge: LLMs emit structured per-item judgments (e.g., whether each diagnosis is grounded in the source records or the category of each clinical mistake) that deterministic metrics then score. Ran it over several dozen small datasets, each targeting a known failure mode, with regression checks before every prompt release.</li>
+                    <li>Made evaluation first-class: shipped an in-house evaluation platform, with 20+ evaluators across three products. The platform is used to validate prompt and inference configuration updates against datasets targeting known and new failure modes, and to progressively encode relevant metrics as evaluators based on user and expert feedback for each specific use case.</li>
+                    <li>Designed a hybrid LLM-as-a-judge: LLMs emit structured per-item judgments (e.g., whether each diagnosis is grounded in the source records or the category of each clinical mistake) that deterministic metrics then score.</li>
                     <li>Built a synthetic patient generator system that turns a free-text case description into a valid FHIR bundle of clinical resources and documents. The LLM fills only the target data points into a valid FHIR scaffold, which keeps the generated content coherent and identifiers, references, and codings correct by construction.</li>
                     <li>Built Groundit, a structured-extraction library whose schemas extend at runtime with any metadata the caller defines, such as per-field confidence, source references, reasoning, or data conflicts.</li>
                     <li>Led 5 direct reports, including a physician I recruited for clinical QA on discharge letters, plus 3 embedded engineers. Started a monthly paper club for goal-oriented research and mentored engineers on agent design and evaluation.</li>
@@ -58,11 +59,11 @@
                 <li>Directly engaged with customers to gather requirements, demonstrate solutions, and iterate on AI features based on feedback, resulting in successful customer acquisition & retention.</li>
             </ul>
             <p><code class="language-plaintext highlighter-rouge">May 2023 - Aug 2023</code>
-                <strong>Lead Software Engineer</strong> at GroupLang (AI startup)</p>
+                <strong>Lead Software Engineer</strong> at <a href="https://grouplang.ai/">GroupLang</a> (AI startup)</p>
                 <ul>
                     <li>Co-founded a generative AI startup focused on conversational AI agents that are built for group interactions and rely on human experts as knowledge sources</li>
                     <li>Selected for Betaworks' "AI Camp Augment" <a href="https://www.betaworks.com/ai-camp-augment-demo-day">accelerator program</a> among only 12 AI startups</li>
-                    <li>Implemented the entire technical stack leveraging serverless infrastructure using AWS Lambdas for a telegram bot with action planning mechanisms, and memory management for human expert routing</li>
+                    <li>Implemented the entire technical stack on serverless infrastructure (AWS Lambda, Modal) with LangChain, Guidance, and vector DBs: a Telegram bot with long-term memory, action planning, question answering over documents, semantic user matching, and memory management for human expert routing. The <a href="https://github.com/Sam1320/GroupLang">source code of the project</a> was the seed for the startup.</li>
                 </ul>
 
             
@@ -104,11 +105,11 @@
             
             <h2 id="projects">Projects</h2>
             
-            <p><code class="language-plaintext highlighter-rouge">Feb 2023 - Aug 2023</code>
-            <a href="https://github.com/Sam1320/GroupLang">GroupLang</a>
-            <span class="tech">(LangChain, Guidance, AWS Lambda, Modal, Vector DBs)</span></p>
+            <p><code class="language-plaintext highlighter-rouge">Dec 2023 - Jan 2024</code>
+            <a href="https://github.com/guidance-ai/guidance">Guidance</a>
+            <span class="tech">(Guidance, llama.cpp, Mistral 7B)</span></p>
             
-            <p>Telegram bot with long-term memory capable of planning and executing tasks, answering questions over documents, mapping messages to actions, unstructured data extraction, semantic user matching and relevant memory retrieval. It seeks and waits for user feedback and clarification if required.</p>
+            <p>Open-source contributions to Guidance, a low-level LLM programming paradigm: a <a href="https://github.com/guidance-ai/guidance/blob/main/notebooks/art_of_prompt_design/react.ipynb">ReAct notebook</a> showing tool-using agents built with constrained generation, and a <a href="https://github.com/guidance-ai/guidance/pull/594">Tree of Thoughts notebook</a> in which a 7B model solves the Game of 24 by branching into multiple reasoning paths in parallel, self-evaluating them, and pursuing the most promising ones.</p>
             
             <p><code class="language-plaintext highlighter-rouge">Dec 2022</code>
             <a href="https://play.google.com/store/apps/details?id=com.sam.estimate">Estimate My State</a>
@@ -144,19 +145,14 @@
             <p><code class="language-plaintext highlighter-rouge">Mar 2020</code>
             <a href="https://arxiv.org/abs/2003.13032">Named Entities in Medical Case Reports: Corpus and Experiments</a></p>
             
-            <h2 id="open-source-contributions">Open Source Contributions</h2>
-            <p><code class="language-plaintext highlighter-rouge">Dec 2023</code>
-            <a href="https://github.com/guidance-ai/guidance/blob/main/notebooks/art_of_prompt_design/react.ipynb">Guidance</a></p>
-            
-            <p>Language model programming paradigm that offers superior control and efficiency compared to conventional prompting and chaining. It allows users to constrain generation (e.g. with regex and CFGs) as well as to interleave control (conditional, loops) and generation seamlessly.</p>
-            
             <h2 id="skills">Skills</h2>
+            <p><strong>Natural Languages:</strong> Spanish (native), English (fluent), German (fluent).</p>
             
-            <p>Technologies &amp; Frameworks: FastAPI. Celery. TaskIQ. PostgreSQL. DynamoDB. Milvus. Docker. Kubernetes. AWS. SageMaker. GCP. Modal. Datadog. Prometheus/Grafana. Langfuse. Strands. Dspy. Guidance. LangChain. FHIR. PyTorch. TensorRT. Tensorflow. Eigen. ROS2. Pygame. Pandas.</p>
+            <p><strong>Hobbies:</strong> Climbing, Yoga, Freediving.</p>
             
-            <p>Programming Languages: Python, JavaScript/TypeScript, C/C++.</p>
+            <p><strong>Technologies &amp; Frameworks:</strong> FastAPI. Celery. TaskIQ. PostgreSQL. DynamoDB. Milvus. Docker. Kubernetes. AWS. SageMaker. GCP. Modal. Datadog. Prometheus/Grafana. Langfuse. Strands. Dspy. Guidance. LangChain. FHIR. PyTorch. TensorRT. Tensorflow. Eigen. ROS2. Pygame. Pandas.</p>
             
-            <p>Natural Languages: Spanish (native), English (fluent), German (fluent).</p>
+            <p><strong>Programming Languages:</strong> Python, JavaScript/TypeScript, C/C++.</p>
             
         </section>
     </main>
