@@ -30,24 +30,28 @@
             <strong>Bachelor of Medicine</strong>
             <em>University of Carabobo, Venezuela</em></p>
             
-            <p><em>Thesis: In-vitro Effect of Croton Malambo and Croton Micans on Human Cancer Cell Lines and its Interaction with Chemotherapeutic Drugs.</em>
+            <p><em>Thesis: In-vitro Effect of Croton Malambo and Croton Micans on Human Cancer Cell Lines and their Interaction with Chemotherapeutic Drugs.</em>
             <!-- GPA: 3.6 --></p>
             
             <h2 id="work-experience">Work Experience</h2>
 
             <p><code class="language-plaintext highlighter-rouge">July 2025 - Oct 2026</code>
-            <strong>Lead AI Engineer</strong> at <a href="https://recaresolutions.com/">Recare </a></p>
-            <ul>
-                <li>Technical Lead of Recare Docs</li>
-                <li>Building an agentic platform for the healthcare industry.</li>
-            </ul>
-
+                <strong>Lead AI Engineer</strong> at <a href="https://recaresolutions.com/">Recare</a></p>
+                <p><em>Built and led Recare's AI organization from scratch into its fastest-growing and most load-bearing unit, applying LLMs to clinical documentation workflows, with AI features in production at 25+ hospitals.</em></p>
+                <ul>
+                    <li>Set the technical direction for Recare Extract and Docs, a scalable structured data-extraction and clinical document-generation system grounded in source medical records.</li>
+                    <li>Made evaluation first-class: shipped an in-house evaluation platform, with 20+ evaluators across three products. The platform is to validate prompt and inference configuration updates against datasets, and to encode relevant metrics as evaluators based on user and expert feedback.</li>
+                    <li>Designed a hybrid LLM-as-a-judge: LLMs emit structured per-item judgments (e.g., whether each diagnosis is grounded in the source records or the category of each clinical mistake) that deterministic metrics then score. Ran it over several dozen small datasets, each targeting a known failure mode, with regression checks before every prompt release.</li>
+                    <li>Built a synthetic patient generator system that turns a free-text case description into a valid FHIR bundle of clinical resources and documents. The LLM fills only the target data points into a valid FHIR scaffold, which keeps the generated content coherent and identifiers, references, and codings correct by construction.</li>
+                    <li>Built Groundit, a structured-extraction library whose schemas extend at runtime with any metadata the caller defines, such as per-field confidence, source references, reasoning, or data conflicts.</li>
+                    <li>Led 5 direct reports, including a physician I recruited for clinical QA on discharge letters, plus 3 embedded engineers. Started a monthly paper club for goal-oriented research and mentored engineers on agent design and evaluation.</li>
+                </ul>
             
             <p><code class="language-plaintext highlighter-rouge">Aug 2023-July 2025</code>
             <strong>AI/Machine Learning Engineer</strong> at <a href="https://www.conductor.com/">Conductor</a></p>
             <ul>
                 <li>Designed and built a prompt library ecosystem for creating, orchestrating, validating, and evaluating prompts agnostic of the Language Model.</li>
-                <li>Designed and built a large scale RAG system for recommending internal links to content creators using vector databases and LLMs.</li>
+                <li>Designed and built a large-scale RAG system for recommending internal links to content creators using vector databases and LLMs.</li>
                 <li>Leveraged domain-specific knowledge and semi-automated prompt engineering to deliver performant microservices for a wide range of generative AI use cases.</li>
                 <li>Architected and implemented enterprise-grade Generative AI infrastructure, including a core model routing service with observability and automated dataset creation from user feedback & real usage data.</li>
                 <li>Led cross-functional enablement sessions and developed hands-on tutorials to upskill engineering teams on AI capabilities, providing technical guidance for successful implementation leveraging proprietary infrastructure.</li>
@@ -68,7 +72,7 @@
             <ul>
                 <li>Developed a semi-automated labeling pipeline for instance segmentation and 2D object detection utilizing SOTA open-source models. Optimized the performance through iterative prompt engineering across different modalities.</li>
                 <li>Created label cleaning applications for both 2D bounding boxes and segmentation masks, streamlining the curation of automated annotations. Trained and performed real-time inference on a semantic segmentation model using PyTorch-ONNX-TensorRT.</li>
-                <li>Created a radar tracking pipeline. Including real-time object detection, tracking of multiple objects, tracking evaluation and visualization.</li>
+                <li>Created a radar tracking pipeline, including real-time object detection, tracking of multiple objects, tracking evaluation and visualization.</li>
                 <li>Designed a modular fail-safe system architecture, focusing on redundancy, robustness, decentralization, coordination, and latency. Implemented POC of the basic building blocks.</li>
             </ul>
             
@@ -87,7 +91,7 @@
             
             <ul>
                 <li>Delivered classroom lectures about linear algebra and answered student questions.</li>
-                <li>Graded final exams and homework assignments providing appropriate feedback to students.</li>
+                <li>Graded final exams and homework assignments, providing appropriate feedback to students.</li>
             </ul>
             
             <p><code class="language-plaintext highlighter-rouge">Oct 2019 - Mar 2020</code>
@@ -103,7 +107,7 @@
             <p><code class="language-plaintext highlighter-rouge">LangChain, Guidance, AWS Lambda, Modal, Vector DBs.</code>
             <a href="https://github.com/Sam1320/GroupLang">GroupLang</a></p>
             
-            <p>Telegram bot with long term memory capable of planning and executing tasks, answering questions over documents, mapping messages to actions, unstructured data extraction, semantic user matching, relevant memory retrieval. It seeks and waits for user feedback and clarification if required.</p>
+            <p>Telegram bot with long-term memory capable of planning and executing tasks, answering questions over documents, mapping messages to actions, unstructured data extraction, semantic user matching and relevant memory retrieval. It seeks and waits for user feedback and clarification if required.</p>
             
             <p><code class="language-plaintext highlighter-rouge">Kotlin, Android Studio</code>
             <a href="https://play.google.com/store/apps/details?id=com.sam.estimate">Estimate My State</a></p>
@@ -123,7 +127,7 @@
             <p><code class="language-plaintext highlighter-rouge">Tensorflow, Computer Vision</code>
             <a href="https://www.kaggle.com/code/sam1320/capstone">Diabetic Retinopathy Detection</a></p>
             
-            <p>Neural network able to identify if there are signs of Diabetic Retinopathy present in a retina image (taken with fundus photography) and classify each image into five different categories depending on the severity of the condition.</p>
+            <p>A neural network able to identify if there are signs of Diabetic Retinopathy present in a retina image (taken with fundus photography) and classify each image into five different categories depending on the severity of the condition.</p>
             
             <h2 id="publications">Publications</h2>
             <ul>
@@ -143,7 +147,7 @@
             
             <p>Programming Languages: Python, JavaScript/TypeScript, C/C++.</p>
             
-            <p>Natural Languages: Spanish (native), English (fluent), German (fluent). French (basic).</p>
+            <p>Natural Languages: Spanish (native), English (fluent), German (fluent).</p>
             
         </section>
     </main>
