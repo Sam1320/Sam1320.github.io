@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>{{ page.title }}</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ page.description }}">
-    <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
+    {% include head.html %}
     <link rel="stylesheet" href="{{ '/assets/css/davewhipp-screen.css' | relative_url }}?v=2" media="screen">
     <link rel="stylesheet" href="{{ '/assets/css/davewhipp-print.css' | relative_url }}?v=2" media="print">
 </head>
@@ -15,8 +11,6 @@
             {{ content }}
         </section>
     </main>
-    <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} Sam Rodriguez</p>
-    </footer>
+    {% include footer.html %}
 </body>
 </html>
